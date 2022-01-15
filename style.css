@@ -83,8 +83,11 @@ h1{
 .grid-item > div > p {
     color: #787885;
 }
-.div-05 a{
+.div-05 {
     text-align: right;
+    text-decoration: none;
+}
+.div-05 a{
     text-decoration: none;
 }
 .bon-mola a{
@@ -156,6 +159,9 @@ footer {
     padding: 50px 20px;
     margin: 0;
     }
+    .div-05 {
+        text-align: center;
+    }
     .grid-item{
         grid-template-columns: 1fr;
     }
@@ -164,6 +170,9 @@ footer {
     .sec-01{
     padding: 50px 20px;
     margin: 0;
+    }
+    .div-05 {
+        text-align: center;
     }
     .grid-item{
         grid-template-columns: 1fr 1fr;
